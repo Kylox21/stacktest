@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'GilroyBold';
+    src: url(assets/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: 'GilroyMedium';
+    src: url(assets/Gilroy-Medium.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@media only screen and (max-width: 500px) {
+    #airporticao {
+        font-size: 20px;
+    }
+    #airportname{
+        font-size: 30px;
+    }
+}
+body{
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
